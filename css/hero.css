@@ -1,0 +1,38 @@
+.hero-container {
+  margin: 0;
+  padding-block-start: 6rem;
+  margin-block-end: 1.5rem;
+  text-align: center;
+}
+
+.hero-container .hero {
+  padding-block-end: 3rem;
+}
+
+.hero-container .title h2 {
+  text-align: center;
+  color: var(--white);
+}
+
+body.light h2{
+  color: var(--ColorLight);
+}
+
+.hero-container span{
+  text-align: center;
+  color: var(--colorSecundary);
+  font-size: 1.5rem;
+}
+
+.hero-container .item i {
+  font-size: 3rem;
+}
+
+.hero-container .item:hover {
+  color: var(--white);
+  transition: 0.5 color;
+}
+
+.hero-container h2 {
+  padding-block-end: 0.5rem;
+}

@@ -1,0 +1,22 @@
+@import "./about-description.css";
+@import "./about-skills.css";
+
+/* .about_title {
+  text-align: center;
+  color: var(--white);
+} */
+
+.about {
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-inline-size: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .about{
+    grid-template-columns: 1fr;
+    gap: 2.5rem
+  }
+}
+

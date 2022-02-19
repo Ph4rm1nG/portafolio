@@ -1,0 +1,48 @@
+.menu-mobile{
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .menu {
+    display: none;
+  }
+
+  .menu-mobile {
+    position: sticky;
+    display: block;
+    bottom: 0;
+    background: #0e0e0e;
+    z-index: 1;
+    padding: 1rem;
+    border-start-start-radius: 10%;
+    border-start-end-radius: 10%;
+  }
+
+  .menu_items {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .mobile_item:hover {
+    color: var(--colorPrimary);
+  }
+
+  .mobile_item a {
+    color: var(--white);
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .mobile_item a:hover {
+    color: var(--colorPrimary);
+  }
+
+  .mobile_item_span{
+    font-size: .5rem;
+    padding-block-start: .5rem;
+    text-align: center;
+  }
+
+
+}

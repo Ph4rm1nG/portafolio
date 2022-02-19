@@ -1,0 +1,42 @@
+.about-curriculum{
+  font-size: 1.8rem;
+}
+
+.about-description .about-curriculum{
+    padding-block-start: 1rem;
+    text-align: left;
+    align-content: center;
+    padding-block-end: 1rem;
+}
+
+.about-curriculum i {
+    margin-inline-end: 0.5rem;
+  }
+  
+  .about-curriculum a {
+    background: var(--colorPrimary);
+    text-decoration: none;
+    color: var(--background);
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  body.light .about-curriculum a{
+    background: var(--ColorLight);
+    color: var(--white)
+  }
+
+  body.light .about-curriculum a:hover{
+    background: none;
+    color: var(--ColorLight);
+    border: 1px solid var(--ColorLight);
+  }
+  
+  .about-curriculum a:hover {
+    background: none;
+    border: 1px solid var(--white);
+    color: var(--colorPrimary);
+    transition: .3s border;
+    transition: .3s background;
+  }
+  

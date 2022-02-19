@@ -1,0 +1,32 @@
+.footer {
+  text-align: center;
+  padding-block-start: 4rem;
+  padding-block-end: 2rem;
+}
+
+/* .footer-items{
+} */
+
+
+.footer-items > p{
+    margin: 0;
+    line-height: 1.5rem;
+}
+
+body.light .footer-items p{
+    color: var(--ColorLight);
+}
+
+.footer-items a{
+    text-decoration: none;
+    color: var(--colorSecundary);
+}
+
+body.light .footer-items a:hover{
+    color: var(--ColorLight)
+}
+
+.footer-items a:hover{
+    color: var(--white);
+    transition: all .3s;
+}

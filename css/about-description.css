@@ -1,0 +1,31 @@
+@import './aboutdescription-curriculum.css';
+
+.about-description{
+    text-align: left;
+    padding-inline-end: 5rem;
+    /* border: 1px solid red; */
+
+}
+
+/* .about-description h3{
+
+}
+
+.about-description h2{
+
+}
+
+.about-description p{
+
+}
+ */
+
+ @media screen and (max-width: 991px) {
+    .about-description{
+      max-inline-size: none;
+      padding-inline-end: 0;
+    }
+  }
+
+
+  
